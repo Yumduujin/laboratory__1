@@ -1,0 +1,50 @@
+.flex-container{
+    display:flex;
+    flex-direction: row;
+}
+.boxB{
+    background-color:#eeeff2;
+    width: 100px;
+    height: 150px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-left: 10px dotted  #D0D0FF ;
+}
+
+
+.flex-container  :hover{
+    background-color: yellow;
+    color: rgb(165, 133, 73)
+}
+.boxB{
+    display: inline-block;
+    
+}
+.B-item1{
+    min-height: 150px;
+}
+.B-item2{
+    min-height: 150px;
+}
+.B-item3{
+    min-height: 150px;
+}
+.B-item4{
+    min-height: 200px;
+}
+
+
+
+.boxB3{
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    background-color:#eeeff2;
+    width: 100px;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-left: 10px dotted  #D0D0FF ;
+
+}

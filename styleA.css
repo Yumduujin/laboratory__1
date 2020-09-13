@@ -1,0 +1,21 @@
+.boxA {
+    width: 100px;
+    height: 100px;
+    background-color:#dfe1e7;
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid  #687291;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.boxA1 {
+    width: 100px;
+    height: 100px;
+    background-color: #687291;
+    text-align: center;
+    margin-top: 10px;
+    border: 10px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
