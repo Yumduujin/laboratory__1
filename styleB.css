@@ -1,7 +1,8 @@
-.flex-container{
+.boxB__container{
     display:flex;
     flex-direction: row;
 }
+
 .boxB{
     background-color:#eeeff2;
     width: 100px;
@@ -13,9 +14,15 @@
 }
 
 
-.flex-container  :hover{
+.boxB__container  :hover{
     background-color: yellow;
     color: rgb(165, 133, 73)
+}
+
+
+.boxB3:hover {
+    background-color:#eeeff2;
+    color: #333;
 }
 .boxB{
     display: inline-block;
@@ -37,9 +44,9 @@
 
 
 .boxB3{
-    position: absolute;
-    bottom: 0px;
-    right:0px;
+    position: fixed;
+    bottom: 0;
+    right:0;
     background-color:#eeeff2;
     width: 100px;
     height: 150px;
